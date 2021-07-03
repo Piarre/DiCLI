@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import datetime
 
-Token = "PASTE YOUR TOKEN HERE (get your own on : https://discord.com/developers/applications)"
+Token = "PASTE YOUR TOKEN HERE (get your own on : https://discord.com/developers/applications, go to : "Bot" -> "Token" -> copy)"
 Prefix = "YOUR PERSONAL BOT PREFIX"
 
 kickLogs = open(r"templates\python\logs\kick.txt", "a")
