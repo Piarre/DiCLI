@@ -1,20 +1,17 @@
 {
-  "name": "@piarre/djscli",
-  "version": "1.0.0",
+  "name": "@piarre/dscli",
+  "version": "1.0.1",
   "description": "A Discord Bot CLI",
-  "main": "src/index.js",
+  "main": "src/main.js",
   "bin": {
-    "piarre/djscli": "bin/djscli",
-    "djscli": "bin/djscli"
+    "dscli": "bin/dscli"
   },
   "publishConfig": {
     "access": "public"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "djs",
+    "discord.py",
     "discord.js",
     "cli"
   ],
@@ -34,5 +31,17 @@
     "listr": "^0.14.3",
     "ncp": "^2.0.0",
     "pkg-install": "^1.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PierreIde/CLI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PierreIde/CLI/issues"
+  },
+  "homepage": "https://github.com/PierreIde/CLI#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

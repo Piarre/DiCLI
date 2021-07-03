@@ -49,7 +49,7 @@ async function promptForMissingOptions(options) {
     questions.push({
       type: 'confirm',
       name: 'git',
-      message: 'Initialize a git repository?',
+      message: 'Initialize a git repository ?',
       default: false,
     });
   }
@@ -59,6 +59,7 @@ async function promptForMissingOptions(options) {
     ...options,
     template: options.template || answers.template,
     git: options.git || answers.git,
+    overwrite: answers.overwrite || answers.overwrite,
   };
  }
  
