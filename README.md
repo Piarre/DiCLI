@@ -12,4 +12,9 @@ For JavaScript
 4. Run "node ." on your terminal and enjoy !
 
 For Pyton
-1. WAIT !
+1. Start a python terminal and start "pip freeze > requirements.txt".
+2. Go to "main.py" and change "Token" and "Prefix".
+3. Now start a new python terminal and start "python main.py".
+4. Enjoy now.
+
+# IF YOU HAVE PROBLEME SEND ME A MESSAGE
