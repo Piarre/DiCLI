@@ -1,0 +1,4 @@
+Open "packages.json" and change "name".
+Open "client.json" and read what is write.
+Run npm "install".
+Run "node ." on your terminal and enjoy !

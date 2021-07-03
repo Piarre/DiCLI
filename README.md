@@ -17,4 +17,4 @@ For Pyton
 3. Now start a new python terminal and start "python main.py".
 4. Enjoy now.
 
-# IF YOU HAVE PROBLEME SEND ME A MESSAGE
+# IF YOU HAVE PROBLEME SEND ME A MESSAGE TO ON MY TWITTER (you can find it on my github !).
