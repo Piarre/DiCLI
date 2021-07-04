@@ -26,7 +26,7 @@ function parseArgumentsIntoOptions(rawArgs) {
 }
 
 async function promptForMissingOptions(options) {
-  const defaultTemplate = 'JavaScript-music-player';
+  const defaultTemplate = 'JavaScript';
   if (options.skipPrompts) {
     return {
       ...options,
@@ -40,7 +40,7 @@ async function promptForMissingOptions(options) {
       type: 'list',
       name: 'template',
       message: 'Please choose which project template to use',
-      choices: ['JavaScript-music-player', 'JavaScript-no-music-player' ,'Python', "C#"],
+      choices: ['JavaScript', ,'Python', "C#"],
       default: defaultTemplate,
     });
   }
