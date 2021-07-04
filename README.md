@@ -1,4 +1,7 @@
 # Welcome to my first own CLI
+
+npm install @piarre/dscli
+
 ### My CLI can be use to create your own Discord Bot, with JavaScript and Python.
 ***
 
