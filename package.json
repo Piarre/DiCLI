@@ -1,6 +1,6 @@
 {
   "name": "@piarre/dscli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Discord Bot CLI",
   "main": "src/main.js",
   "bin": {
@@ -40,8 +40,5 @@
   "bugs": {
     "url": "https://github.com/PierreIde/CLI/issues"
   },
-  "homepage": "https://github.com/PierreIde/CLI#readme",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  "homepage": "https://github.com/PierreIde/CLI#readme"
 }
