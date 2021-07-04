@@ -26,4 +26,4 @@ client.once('ready', () => {
 
 client.on('error', (err) => console.error(err));
 
-client.login("ODYwNDIxOTcyNzIzMTA1ODEy.YN7AaA.RkDU0-h4B_lxT7tyYxqiXSKkuNc")
+client.login("TOKEN GOES HERE");
