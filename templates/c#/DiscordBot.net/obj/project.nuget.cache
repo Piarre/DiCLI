@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "SOeEAtzd1f2LhTuKdwIWx/qc6jB4GxKU8XfOx88rAAZwQIyCwi7aO5vtBzZ5xwiE9Z7iquet3y+UeWXH/DJMtw==",
+  "success": true,
+  "projectFilePath": "D:\\IDE-Bot\\CLI\\templates\\c#\\DiscordBot.net\\DiscordBot.net.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Pierre\\.nuget\\packages\\discord.net\\2.4.0\\discord.net.2.4.0.nupkg.sha512",
+    "C:\\Users\\Pierre\\.nuget\\packages\\discord.net.commands\\2.4.0\\discord.net.commands.2.4.0.nupkg.sha512",
+    "C:\\Users\\Pierre\\.nuget\\packages\\discord.net.core\\2.4.0\\discord.net.core.2.4.0.nupkg.sha512",
+    "C:\\Users\\Pierre\\.nuget\\packages\\discord.net.rest\\2.4.0\\discord.net.rest.2.4.0.nupkg.sha512",
+    "C:\\Users\\Pierre\\.nuget\\packages\\discord.net.webhook\\2.4.0\\discord.net.webhook.2.4.0.nupkg.sha512",
+    "C:\\Users\\Pierre\\.nuget\\packages\\discord.net.websocket\\2.4.0\\discord.net.websocket.2.4.0.nupkg.sha512",
+    "C:\\Users\\Pierre\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0\\microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
+    "C:\\Users\\Pierre\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\Pierre\\.nuget\\packages\\system.collections.immutable\\1.3.1\\system.collections.immutable.1.3.1.nupkg.sha512",
+    "C:\\Users\\Pierre\\.nuget\\packages\\system.interactive.async\\4.0.0\\system.interactive.async.4.0.0.nupkg.sha512",
+    "C:\\Users\\Pierre\\.nuget\\packages\\system.linq.async\\4.0.0\\system.linq.async.4.0.0.nupkg.sha512",
+    "C:\\Users\\Pierre\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\Pierre\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}
