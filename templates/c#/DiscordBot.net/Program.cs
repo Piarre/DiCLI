@@ -36,7 +36,7 @@ namespace DiscordBot.net
 
             await InstallCommandsAsync();
 
-            await client.LoginAsync(TokenType.Bot, "ODYwNDIxOTcyNzIzMTA1ODEy.YN7AaA.RkDU0-h4B_lxT7tyYxqiXSKkuNc");
+            await client.LoginAsync(TokenType.Bot, "TOKEN GOES HERE");
             await client.StartAsync();
 
             await Task.Delay(-1);
