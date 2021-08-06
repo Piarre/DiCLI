@@ -1,4 +1,4 @@
-Start a python terminal and run "pip freeze > requirements.txt".
+Start a python terminal and run "pip install -r requirements.txt".
 Go to "main.py" and change "Token" and "Prefix".
 Now start a new python terminal and start "python main.py".
 Enjoy now.

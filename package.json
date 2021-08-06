@@ -4,6 +4,7 @@
   "description": "A Discord Bot CLI",
   "main": "src/main.js",
   "bin": {
+    "@piarre/dscli": "bin/dscli",
     "dscli": "bin/dscli"
   },
   "publishConfig": {

@@ -1,14 +1,8 @@
 import discord
 from discord.ext import commands
-import datetime
 
 Token = "PASTE YOUR TOKEN HERE (get your own on : https://discord.com/developers/applications, go to : 'Bot' -> 'Token' -> copy)"
 Prefix = "YOUR PERSONAL BOT PREFIX"
-
-kickLogs = open(r"templates\python\logs\kick.txt", "a")
-banLogs = open(r"templates\python\logs\ban.txt", "a")
-
-logsDatetime = datetime.datetime.now()
 
 client = commands.Bot(Prefix)    
 
@@ -30,8 +24,6 @@ async def kick(ctx, user : discord.User, *reason):
     kickUser = user.id
     await ctx.guild.kick(user, reason = reason)
     await ctx.send(f"<@{kickUser}>, was kicked <@{userKicker}> for reason : {reason} ")
-    kickLogs.write(f"{logsDatetime} {ctx.message.author.name} kicked {user} for : {reason} \n")
-    kickLogs.close()
 
 @client.command()
 async def ban(ctx, user : discord.User, *reason):
@@ -39,7 +31,5 @@ async def ban(ctx, user : discord.User, *reason):
     banUser = user.id
     await ctx.guild.ban(user, reason = reason)
     await ctx.send(f"<@{banUser}>, was banned <@{userBan}> for reason : {reason} ")
-    banLogs.write(f"{logsDatetime} {ctx.message.author.name} banned {user} for reason : {reason} \n")
-    banLogs.close()
 
 client.run(Token)
