@@ -1,4 +1,3 @@
-Open "packages.json" and change "name".
-Open "client.json" and read what is write.
-Run npm "install".
-Run "node ." on your terminal and enjoy !
+Run "npm "install" in your terminal.
+Open "client.json" to do some intstruction
+Enjoy your discord bot by running "npm install " on your terminal and enjoy !

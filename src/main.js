@@ -9,7 +9,13 @@ import { promisify } from 'util';
 
 const access = promisify(fs.access);
 const copy = promisify(ncp);
-
+ 
+/**
+ * @author Piarre
+ * @file main.js
+ * @version 1.0
+ * @license MIT license <http://www.opensource.org/licenses/MIT>
+ */
 async function copyTemplateFiles(options) {
  return copy(options.templateDirectory, options.targetDirectory, {
    clobber: false,

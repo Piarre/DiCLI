@@ -1,10 +1,10 @@
-const command = require('../command')
+const command = require('../command.js')
 
 module.exports = (Client) => {
     command(Client, ['ban', 'b'], message => {
         const { member, mentions } = message
 
-        const tag = `<@${member.id}>`
+        const tag = `<@${member.id}>` //who ban or kick
 
         if(
         member.hasPermission('ADMINISTRATOR') || 
@@ -15,12 +15,12 @@ module.exports = (Client) => {
           if (target) {
               const targetMember = message.guild.members.cache.get(target.id)
               targetMember.ban()
-              message.channel.send(`**${tag}, cet utilisateur à été banni(e) !**`)
+              message.channel.send(`**Utilisateur**, ${targetMember} **bannie(e) par :** ${tag} **!**`)
           } else {
-              message.channel.send(`**Veuillez spécifié un utilisateur !**`)
+              message.channel.send(`${tag}, **Veuillez spécifié un utilisateur !**`)
           }
         } else {
-            message.channel.send(`**${tag}, Vous n'avez pas la permission de bannir un membre**`)
+            message.channel.send(`${tag}, **Vous n'avez pas la permission de bannire(e) un membre !**`)
         }
     })
 
@@ -38,12 +38,12 @@ module.exports = (Client) => {
           if (target) {
               const targetMember = message.guild.members.cache.get(target.id)
               targetMember.kick()
-              message.channel.send(`**${tag}, cet utilisateur à été éjecté(e) !**`)
+              message.channel.send(`**Utilisateur**, ${targetMember} **éjecté(e) par :** ${tag} **!**`)
           } else {
-              message.channel.send(`**Veuillez spécifié un utilisateur !**`)
+              message.channel.send(`${tag}, **Veuillez spécifié un utilisateur !**`)
           }
         } else {
-            message.channel.send(`**${tag}, Vous n'avez pas la permission d'éjecté un membre**`)
+            message.channel.send(`${tag}, **Vous n'avez pas la permission d'éjecté(e) un membre !**`)
         }
     })
 }

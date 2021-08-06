@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const Client = new Discord.Client();
-const { Token } = require('./src/client.json');
-const kickAndBan = require('./src/commands/kickAndBan');
+const { Token } = require('./client.json');
+const kickAndBan = require('./commands/kickAndBan');
 
 const presenceParams = {
     activity: {

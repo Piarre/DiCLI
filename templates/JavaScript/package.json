@@ -1,12 +1,16 @@
 {
-  "name": "",
+  "name": "My Dicsord Bot",
   "version": "1.0.0",
   "description": "Bot Discord Le Cercle.",
   "main": "index.js",
   "scripts": {
-    "start": "node ."
+    "start": "node index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "discod.js",
+    "discord",
+    "Discord bot"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
