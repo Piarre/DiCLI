@@ -8,21 +8,24 @@
   },
   "publishConfig": {
     "access": "public",
-    "@piarre:registry": "https://npm.pkg.github.com"
+    "@piarre:registry": "https://registry.npmjs.org/",
+    "@pierreide:registry":"https://npm.pkg.github.com"
   },
   "keywords": [
     "djs",
     "discord.py",
     "discord.js",
-    "cli"
+    "cli",
+    "javascript",
+    "python"
   ],
   "files": [
     "bin/",
     "src/",
     "templates/"
   ],
-  "author": "Piirre",
-  "license": "ISC",
+  "author": "Piarre",
+  "license": "MIT",
   "dependencies": {
     "arg": "^5.0.0",
     "chalk": "^4.1.1",
@@ -30,8 +33,6 @@
     "execa": "^5.1.1",
     "inquirer": "^8.1.1",
     "listr": "^0.14.3",
-    "ncp": "^2.0.0",
-    "npmrc": "^1.1.1",
     "pkg-install": "^1.0.0"
   },
   "repository": {
@@ -42,8 +43,7 @@
     "url": "https://github.com/PierreIde/CLI/issues"
   },
   "homepage": "https://github.com/PierreIde/CLI#readme",
-  "devDependencies": {},
   "scripts": {
-    "test": "npm run start"
+    "start": "npm run start"
   }
 }
