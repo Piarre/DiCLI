@@ -6,9 +6,13 @@ npm install @piarre/dscli
 ***
 
 ## Français
-Voici mon premier CLI, créer pour aider, ce CLI est fais pour faire de simple bot Discord en 1 seule commande !
+1. Installation
+  * ``npm install @piarre/dscli ``
+  * ``dscli -i --git``
 
-## English
-Here's my firsy CLI, create to heal, this CLI is make to make simple Discord bot with only 1 command !
+## English (yes it's the same x))
+1. Install
+  * ``npm install @piarre/dscli ``
+  * ``dscli -i --git``
 
 #### IF YOU HAVE PROBLEME SEND ME A MESSAGE TO ON MY TWITTER (you can find it on my github !).
