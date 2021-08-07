@@ -1,10 +1,9 @@
 {
   "name": "@piarre/dscli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Discord Bot CLI",
   "main": "src/main.js",
   "bin": {
-    "@piarre/dscli": "bin/dscli",
     "dscli": "bin/dscli"
   },
   "publishConfig": {
@@ -32,9 +31,9 @@
     "inquirer": "^8.1.1",
     "listr": "^0.14.3",
     "ncp": "^2.0.0",
+    "npmrc": "^1.1.1",
     "pkg-install": "^1.0.0"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PierreIde/CLI.git"
@@ -42,5 +41,9 @@
   "bugs": {
     "url": "https://github.com/PierreIde/CLI/issues"
   },
-  "homepage": "https://github.com/PierreIde/CLI#readme"
+  "homepage": "https://github.com/PierreIde/CLI#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm run start"
+  }
 }
