@@ -5,14 +5,10 @@ npm install @piarre/dscli
 
 ***
 
-## Français
-1. Installation
+## Installion
+1. Install the CLI
   * ``npm install @piarre/dscli ``
+2. Use the CLI
   * ``dscli -i --git``
 
-## English (yes it's the same x))
-1. Install
-  * ``npm install @piarre/dscli ``
-  * ``dscli -i --git``
-
-#### IF YOU HAVE PROBLEME SEND ME A MESSAGE TO ON MY TWITTER (you can find it on my github !).
+#### If you have some problems with contact me on Twitter (you can find it on my github !).

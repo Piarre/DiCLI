@@ -12,7 +12,6 @@ const copy = promisify(ncp);
  
 /**
  * @author Piarre
- * @file main.js
  * @version 1.0
  * @license MIT license <http://www.opensource.org/licenses/MIT>
  */

@@ -1,9 +1,10 @@
 {
   "name": "@piarre/dscli",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A Discord Bot CLI",
   "main": "src/main.js",
   "bin": {
+    "@piarre/dscli": "bin/dscli",
     "dscli": "bin/dscli"
   },
   "publishConfig": {
@@ -32,7 +33,8 @@
     "esm": "^3.2.25",
     "execa": "^5.1.1",
     "inquirer": "^8.1.1",
-    "listr": "^0.14.3",
+    "listr": "^0.14.2",
+    "ncp": "^2.0.0",
     "pkg-install": "^1.0.0"
   },
   "repository": {
