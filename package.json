@@ -1,6 +1,6 @@
 {
   "name": "@piarre/dscli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A Discord Bot CLI",
   "main": "src/main.js",
   "bin": {
