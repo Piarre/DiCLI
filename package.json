@@ -1,6 +1,6 @@
 {
   "name": "@piarre/dscli",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "A Discord Bot CLI",
   "main": "src/main.js",
   "bin": {
@@ -10,7 +10,7 @@
   "publishConfig": {
     "access": "public",
     "@piarre:registry": "https://registry.npmjs.org/",
-    "@pierreide:registry": "https://npm.pkg.github.com"
+    "@piarre:registry":"https://npm.pkg.github.com"
   },
   "keywords": [
     "djs",
@@ -20,7 +20,8 @@
     "javascript",
     "python",
     "java",
-    "gradle"
+    "gradle",
+    "typescript"
   ],
   "files": [
     "bin/",
@@ -41,12 +42,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PierreIde/CLI.git"
+    "url": "git+https://github.com/Piarre/DiscordCLI"
   },
   "bugs": {
-    "url": "https://github.com/PierreIde/CLI/issues"
+    "url": "https://github.com/Piarre/DSCLI/issues"
   },
-  "homepage": "https://github.com/PierreIde/CLI#readme",
+  "homepage": "https://github.com/Piarre/DSCLI#readme",
   "scripts": {
     "start": "npm run start"
   }

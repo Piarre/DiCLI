@@ -1,0 +1,9 @@
+1. 
+    Open config.toml
+
+2. 
+    Setup a prefix
+
+3. Then your token (get it on https://discord.com/developers/applications)
+
+4. Then run;

@@ -1,4 +1,5 @@
 import arg from 'arg';
+import chalk from 'chalk';
 import inquirer from 'inquirer';
 import { createProject } from './main';
 
@@ -6,12 +7,14 @@ import { createProject } from './main';
 function parseArgumentsIntoOptions(rawArgs) {
  const args = arg(
    {
+     '--install': Boolean,
+     '--help': Boolean,
      '--git': Boolean,
      '--yes': Boolean,
-     '--install': Boolean,
+     '-i': '--install',
+     '-h': '--help',
      '-g': '--git',
-     '-y': '--yes',
-     '-i': '--install'
+     '-y': '--yes'
    },
    {
      argv: rawArgs.slice(2),
@@ -21,12 +24,21 @@ function parseArgumentsIntoOptions(rawArgs) {
    skipPrompts: args['--yes'] || false,
    git: args['--git'] || false,
    template: args._[0],
-   runInstall: args['--install'] || false
+   runInstall: args['--install'] || false,
+   helpUser: args['--help'] || false
  };
 }
 
 async function promptForMissingOptions(options) {
-  const defaultTemplate = 'JavaScript';
+
+  if (options.helpUser) {
+    console.log("")
+    process.exit(1);
+  }
+
+  
+
+  const defaultTemplate = 'TypeScript';
   if (options.skipPrompts) {
     return {
       ...options,
@@ -36,11 +48,13 @@ async function promptForMissingOptions(options) {
  
   const questions = [];
   if (!options.template) {
+    console.log('Welcome to the Discord Bot CLI made by %s !', chalk.yellow.bold('Piarre#0636'));
+    console.log('Only %s work with slash commands !', chalk.redBright.bold('TypeScript'));
     questions.push({
       type: 'list',
       name: 'template',
-      message: 'Please choose which project template to use',
-      choices: ['JavaScript', 'Python', 'Java'],
+      message: 'Please choose which project template to use :',
+      choices: ['TypeScript', 'JavaScript', 'Python', 'Java'],
       default: defaultTemplate,
     });
   }
@@ -62,6 +76,7 @@ async function promptForMissingOptions(options) {
     overwrite: answers.overwrite || answers.overwrite,
   };
  }
+ 
  
  export async function cli(args) {
   let options = parseArgumentsIntoOptions(args);

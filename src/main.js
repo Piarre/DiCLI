@@ -1,18 +1,18 @@
-import chalk from 'chalk';
 import fs from 'fs';
 import ncp from 'ncp';
 import path from 'path';
 import execa from 'execa';
 import Listr from 'listr';
-import { projectInstall } from 'pkg-install';
+import chalk from 'chalk';
 import { promisify } from 'util';
+import { projectInstall } from 'pkg-install';
 
 const access = promisify(fs.access);
 const copy = promisify(ncp);
  
 /**
  * @author Piarre
- * @version 1.0
+ * @version 1.1.1
  * @license MIT license <http://www.opensource.org/licenses/MIT>
  */
 async function copyTemplateFiles(options) {
@@ -69,7 +69,7 @@ export async function createProject(options) {
       }),
       skip: () => !options.runInstall ? 'Pass --install to automatically install dependencies'
       : undefined,
-    },
+    }
   ])
 
   await tasks.run();

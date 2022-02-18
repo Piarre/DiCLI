@@ -2,7 +2,6 @@ package fr.piarre.bot;
 
 import fr.piarre.bot.Utils.ConfigManager;
 import fr.piarre.bot.Utils.commands.MessageManager;
-import jdk.nashorn.internal.runtime.regexp.joni.Config;
 import org.javacord.api.DiscordApi;
 import org.javacord.api.DiscordApiBuilder;
 
