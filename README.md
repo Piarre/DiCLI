@@ -19,7 +19,9 @@ Install via package.json :
   npm install @piarre/dicli
 ```
 
-### My CLI can be use to create your own Discord Bot, with JavaScript and Python.### Javascript
+### My CLI can be use to create your own Discord Bot, with JavaScript and Python.
+
+### Javascript
     1. Install the packages.
         npm install
     2. Your credentials

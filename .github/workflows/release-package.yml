@@ -1,4 +1,4 @@
-name: DSCLI
+name: DICLI
 
 on:
   release:
@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    runs-on: dscli-latest
+    runs-on: dicli-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
@@ -17,7 +17,7 @@ jobs:
 
   publish-gpr:
     needs: build
-    runs-on: dscli-latest
+    runs-on: dicli-latest
     permissions:
       packages: write
       contents: read

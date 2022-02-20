@@ -38,7 +38,7 @@ async function promptForMissingOptions(options) {
 
   
 
-  const defaultTemplate = 'TypeScript';
+  const defaultTemplate = 'JavaScript';
   if (options.skipPrompts) {
     return {
       ...options,
@@ -48,13 +48,13 @@ async function promptForMissingOptions(options) {
  
   const questions = [];
   if (!options.template) {
-    console.log('Welcome to the Discord Bot CLI made by %s !', chalk.yellow.bold('Piarre#0636'));
-    console.log('Only %s work with slash commands !', chalk.redBright.bold('TypeScript'));
+    console.log('Welcome to the Discord Bot CLI :');
+    // console.log('Only %s work with slash commands !', chalk.redBright.bold('TypeScript'));
     questions.push({
       type: 'list',
       name: 'template',
       message: 'Please choose which project template to use :',
-      choices: ['TypeScript', 'JavaScript', 'Python', 'Java'],
+      choices: ['JavaScript', 'Python', 'Java'],
       default: defaultTemplate,
     });
   }
@@ -82,4 +82,5 @@ async function promptForMissingOptions(options) {
   let options = parseArgumentsIntoOptions(args);
   options = await promptForMissingOptions(options);
   await createProject(options);
+  console.log('Made by %s !', chalk.yellow.bold('Piarre#0636'));
  }

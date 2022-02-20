@@ -1,11 +1,11 @@
 {
-  "name": "@piarre/dscli",
-  "version": "1.0.9",
+  "name": "@piarre/dicli",
+  "version": "1.1.2",
   "description": "A Discord Bot CLI",
   "main": "src/main.js",
   "bin": {
-    "@piarre/dscli": "bin/dscli",
-    "dscli": "bin/dscli"
+    "@piarre/dicli": "bin/dicli",
+    "dicli": "bin/dicli"
   },
   "publishConfig": {
     "access": "public",
@@ -20,8 +20,7 @@
     "javascript",
     "python",
     "java",
-    "gradle",
-    "typescript"
+    "gradle"
   ],
   "files": [
     "bin/",
@@ -42,12 +41,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Piarre/DiscordCLI"
+    "url": "git+https://github.com/Piarre/DiCLI"
   },
   "bugs": {
-    "url": "https://github.com/Piarre/DSCLI/issues"
+    "url": "https://github.com/Piarre/DiCLI/issues"
   },
-  "homepage": "https://github.com/Piarre/DSCLI#readme",
+  "homepage": "https://github.com/Piarre/DiCLI#readme",
   "scripts": {
     "start": "npm run start"
   }
