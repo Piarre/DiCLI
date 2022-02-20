@@ -1,7 +1,7 @@
 import arg from 'arg';
 import chalk from 'chalk';
 import inquirer from 'inquirer';
-import { createProject } from './main';
+import { createProject } from '.';
 
 
 function parseArgumentsIntoOptions(rawArgs) {
